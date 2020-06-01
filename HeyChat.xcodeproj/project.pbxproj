@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		B2B4CED6247C7CD200415F46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4CED5247C7CD200415F46 /* AppDelegate.swift */; };
 		B2B4CED8247C7CD200415F46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4CED7247C7CD200415F46 /* SceneDelegate.swift */; };
-		B2B4CEDA247C7CD200415F46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4CED9247C7CD200415F46 /* ViewController.swift */; };
+		B2B4CEDA247C7CD200415F46 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4CED9247C7CD200415F46 /* WelcomeViewController.swift */; };
 		B2B4CEDD247C7CD200415F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B4CEDB247C7CD200415F46 /* Main.storyboard */; };
 		B2B4CEDF247C7CD500415F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2B4CEDE247C7CD500415F46 /* Assets.xcassets */; };
 		B2B4CEE2247C7CD500415F46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B4CEE0247C7CD500415F46 /* LaunchScreen.storyboard */; };
 		B2B4CEED247C7CD500415F46 /* HeyChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4CEEC247C7CD500415F46 /* HeyChatTests.swift */; };
 		B2B4CEF8247C7CD500415F46 /* HeyChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4CEF7247C7CD500415F46 /* HeyChatUITests.swift */; };
+		B2B4CF09247C7DB700415F46 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B2B4CF08247C7DB700415F46 /* README.md */; };
+		B2B4CF0B247C7ED800415F46 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4CF0A247C7ED800415F46 /* Message.swift */; };
+		B2B4CF0D247C7F3F00415F46 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4CF0C247C7F3F00415F46 /* RegisterViewController.swift */; };
+		B2B4CF0F247C7FC200415F46 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4CF0E247C7FC200415F46 /* LoginViewController.swift */; };
+		B2B4CF11247C7FDC00415F46 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4CF10247C7FDC00415F46 /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,7 @@
 		B2B4CED2247C7CD200415F46 /* HeyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2B4CED5247C7CD200415F46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2B4CED7247C7CD200415F46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B2B4CED9247C7CD200415F46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2B4CED9247C7CD200415F46 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		B2B4CEDC247C7CD200415F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2B4CEDE247C7CD500415F46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2B4CEE1247C7CD500415F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		B2B4CEF3247C7CD500415F46 /* HeyChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeyChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2B4CEF7247C7CD500415F46 /* HeyChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeyChatUITests.swift; sourceTree = "<group>"; };
 		B2B4CEF9247C7CD500415F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2B4CF08247C7DB700415F46 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B2B4CF0A247C7ED800415F46 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		B2B4CF0C247C7F3F00415F46 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		B2B4CF0E247C7FC200415F46 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B2B4CF10247C7FDC00415F46 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +89,7 @@
 		B2B4CEC9247C7CD200415F46 = {
 			isa = PBXGroup;
 			children = (
+				B2B4CF08247C7DB700415F46 /* README.md */,
 				B2B4CED4247C7CD200415F46 /* HeyChat */,
 				B2B4CEEB247C7CD500415F46 /* HeyChatTests */,
 				B2B4CEF6247C7CD500415F46 /* HeyChatUITests */,
@@ -101,8 +112,9 @@
 			children = (
 				B2B4CED5247C7CD200415F46 /* AppDelegate.swift */,
 				B2B4CED7247C7CD200415F46 /* SceneDelegate.swift */,
-				B2B4CED9247C7CD200415F46 /* ViewController.swift */,
-				B2B4CEDB247C7CD200415F46 /* Main.storyboard */,
+				B2B4CF06247C7D5500415F46 /* Models */,
+				B2B4CF05247C7D3A00415F46 /* Views */,
+				B2B4CF07247C7D6500415F46 /* Controllers */,
 				B2B4CEDE247C7CD500415F46 /* Assets.xcassets */,
 				B2B4CEE0247C7CD500415F46 /* LaunchScreen.storyboard */,
 				B2B4CEE3247C7CD500415F46 /* Info.plist */,
@@ -126,6 +138,33 @@
 				B2B4CEF9247C7CD500415F46 /* Info.plist */,
 			);
 			path = HeyChatUITests;
+			sourceTree = "<group>";
+		};
+		B2B4CF05247C7D3A00415F46 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2B4CEDB247C7CD200415F46 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B2B4CF06247C7D5500415F46 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B2B4CF0A247C7ED800415F46 /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B2B4CF07247C7D6500415F46 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B2B4CED9247C7CD200415F46 /* WelcomeViewController.swift */,
+				B2B4CF0C247C7F3F00415F46 /* RegisterViewController.swift */,
+				B2B4CF0E247C7FC200415F46 /* LoginViewController.swift */,
+				B2B4CF10247C7FDC00415F46 /* ChatViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2B4CF09247C7DB700415F46 /* README.md in Resources */,
 				B2B4CEE2247C7CD500415F46 /* LaunchScreen.storyboard in Resources */,
 				B2B4CEDF247C7CD500415F46 /* Assets.xcassets in Resources */,
 				B2B4CEDD247C7CD200415F46 /* Main.storyboard in Resources */,
@@ -259,7 +299,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2B4CEDA247C7CD200415F46 /* ViewController.swift in Sources */,
+				B2B4CF0F247C7FC200415F46 /* LoginViewController.swift in Sources */,
+				B2B4CEDA247C7CD200415F46 /* WelcomeViewController.swift in Sources */,
+				B2B4CF0D247C7F3F00415F46 /* RegisterViewController.swift in Sources */,
+				B2B4CF11247C7FDC00415F46 /* ChatViewController.swift in Sources */,
+				B2B4CF0B247C7ED800415F46 /* Message.swift in Sources */,
 				B2B4CED6247C7CD200415F46 /* AppDelegate.swift in Sources */,
 				B2B4CED8247C7CD200415F46 /* SceneDelegate.swift in Sources */,
 			);
