@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2499A4E24858D8200BDF9D0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2499A4D24858D8200BDF9D0 /* Constants.swift */; };
 		B2B4CED6247C7CD200415F46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4CED5247C7CD200415F46 /* AppDelegate.swift */; };
 		B2B4CED8247C7CD200415F46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4CED7247C7CD200415F46 /* SceneDelegate.swift */; };
 		B2B4CEDA247C7CD200415F46 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4CED9247C7CD200415F46 /* WelcomeViewController.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B2499A4D24858D8200BDF9D0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B2B4CED2247C7CD200415F46 /* HeyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2B4CED5247C7CD200415F46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2B4CED7247C7CD200415F46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				B2B4CF05247C7D3A00415F46 /* Views */,
 				B2B4CF07247C7D6500415F46 /* Controllers */,
 				B2B4CEDE247C7CD500415F46 /* Assets.xcassets */,
+				B2499A4D24858D8200BDF9D0 /* Constants.swift */,
 				B2B4CEE0247C7CD500415F46 /* LaunchScreen.storyboard */,
 				B2B4CEE3247C7CD500415F46 /* Info.plist */,
 			);
@@ -306,6 +309,7 @@
 				B2B4CF0B247C7ED800415F46 /* Message.swift in Sources */,
 				B2B4CED6247C7CD200415F46 /* AppDelegate.swift in Sources */,
 				B2B4CED8247C7CD200415F46 /* SceneDelegate.swift in Sources */,
+				B2499A4E24858D8200BDF9D0 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
