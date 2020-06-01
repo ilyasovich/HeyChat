@@ -6,4 +6,10 @@
 //  Copyright © 2020 Aman Ilyasovich. All rights reserved.
 //
 
-import Foundation
+import UIKit
+import Firebase
+
+class RegiterViewController: UIViewController {
+  
+}
+

@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B9A9DF9E4A07F6277D0566D /* Pods_HeyChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F66E284A3FF8903F883BBA /* Pods_HeyChat.framework */; };
 		B2499A4E24858D8200BDF9D0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2499A4D24858D8200BDF9D0 /* Constants.swift */; };
+		B2499A502485903600BDF9D0 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2499A4F2485903600BDF9D0 /* GoogleService-Info-2.plist */; };
 		B2B4CED6247C7CD200415F46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4CED5247C7CD200415F46 /* AppDelegate.swift */; };
 		B2B4CED8247C7CD200415F46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4CED7247C7CD200415F46 /* SceneDelegate.swift */; };
 		B2B4CEDA247C7CD200415F46 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4CED9247C7CD200415F46 /* WelcomeViewController.swift */; };
@@ -41,7 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28F66E284A3FF8903F883BBA /* Pods_HeyChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeyChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		666EFE5FCFB3589178C156D8 /* Pods-HeyChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyChat.debug.xcconfig"; path = "Target Support Files/Pods-HeyChat/Pods-HeyChat.debug.xcconfig"; sourceTree = "<group>"; };
 		B2499A4D24858D8200BDF9D0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B2499A4F2485903600BDF9D0 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info-2.plist"; path = "../../../../../Desktop/GoogleService-Info-2.plist"; sourceTree = "<group>"; };
 		B2B4CED2247C7CD200415F46 /* HeyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2B4CED5247C7CD200415F46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2B4CED7247C7CD200415F46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +66,7 @@
 		B2B4CF0C247C7F3F00415F46 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		B2B4CF0E247C7FC200415F46 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B2B4CF10247C7FDC00415F46 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		CAF9837E5612F3BE5051A10A /* Pods-HeyChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyChat.release.xcconfig"; path = "Target Support Files/Pods-HeyChat/Pods-HeyChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B9A9DF9E4A07F6277D0566D /* Pods_HeyChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +95,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A19927B98879779CF6731446 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28F66E284A3FF8903F883BBA /* Pods_HeyChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B2B4CEC9247C7CD200415F46 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +111,8 @@
 				B2B4CEEB247C7CD500415F46 /* HeyChatTests */,
 				B2B4CEF6247C7CD500415F46 /* HeyChatUITests */,
 				B2B4CED3247C7CD200415F46 /* Products */,
+				C713F9A58038DEB4837396A1 /* Pods */,
+				A19927B98879779CF6731446 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +138,7 @@
 				B2499A4D24858D8200BDF9D0 /* Constants.swift */,
 				B2B4CEE0247C7CD500415F46 /* LaunchScreen.storyboard */,
 				B2B4CEE3247C7CD500415F46 /* Info.plist */,
+				B2499A4F2485903600BDF9D0 /* GoogleService-Info-2.plist */,
 			);
 			path = HeyChat;
 			sourceTree = "<group>";
@@ -170,6 +188,16 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		C713F9A58038DEB4837396A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				666EFE5FCFB3589178C156D8 /* Pods-HeyChat.debug.xcconfig */,
+				CAF9837E5612F3BE5051A10A /* Pods-HeyChat.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -177,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2B4CEFC247C7CD500415F46 /* Build configuration list for PBXNativeTarget "HeyChat" */;
 			buildPhases = (
+				8F7AF2E373A70ED5C72B9856 /* [CP] Check Pods Manifest.lock */,
 				B2B4CECE247C7CD200415F46 /* Sources */,
 				B2B4CECF247C7CD200415F46 /* Frameworks */,
 				B2B4CED0247C7CD200415F46 /* Resources */,
+				D52CEAE4D3720DB9F8B1E37A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -274,6 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2499A502485903600BDF9D0 /* GoogleService-Info-2.plist in Resources */,
 				B2B4CF09247C7DB700415F46 /* README.md in Resources */,
 				B2B4CEE2247C7CD500415F46 /* LaunchScreen.storyboard in Resources */,
 				B2B4CEDF247C7CD500415F46 /* Assets.xcassets in Resources */,
@@ -296,6 +327,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F7AF2E373A70ED5C72B9856 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeyChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D52CEAE4D3720DB9F8B1E37A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeyChat/Pods-HeyChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeyChat/Pods-HeyChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HeyChat/Pods-HeyChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B2B4CECE247C7CD200415F46 /* Sources */ = {
@@ -480,6 +553,7 @@
 		};
 		B2B4CEFD247C7CD500415F46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 666EFE5FCFB3589178C156D8 /* Pods-HeyChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -498,6 +572,7 @@
 		};
 		B2B4CEFE247C7CD500415F46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAF9837E5612F3BE5051A10A /* Pods-HeyChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
