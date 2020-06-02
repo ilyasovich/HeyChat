@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0595A5FC40C0115D2AA65587 /* Pods_HeyChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71C4DE343E5204ACB4AD73D /* Pods_HeyChatUITests.framework */; };
-		64DC9C124165897E177EFBD3 /* Pods_HeyChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FACF03E1FEBE87FDF72B08F /* Pods_HeyChatTests.framework */; };
 		6B9A9DF9E4A07F6277D0566D /* Pods_HeyChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F66E284A3FF8903F883BBA /* Pods_HeyChat.framework */; };
 		B2499A4E24858D8200BDF9D0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2499A4D24858D8200BDF9D0 /* Constants.swift */; };
 		B2B4CED6247C7CD200415F46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4CED5247C7CD200415F46 /* AppDelegate.swift */; };
@@ -17,8 +15,6 @@
 		B2B4CEDD247C7CD200415F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B4CEDB247C7CD200415F46 /* Main.storyboard */; };
 		B2B4CEDF247C7CD500415F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2B4CEDE247C7CD500415F46 /* Assets.xcassets */; };
 		B2B4CEE2247C7CD500415F46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B4CEE0247C7CD500415F46 /* LaunchScreen.storyboard */; };
-		B2B4CEED247C7CD500415F46 /* HeyChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4CEEC247C7CD500415F46 /* HeyChatTests.swift */; };
-		B2B4CEF8247C7CD500415F46 /* HeyChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4CEF7247C7CD500415F46 /* HeyChatUITests.swift */; };
 		B2B4CF09247C7DB700415F46 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B2B4CF08247C7DB700415F46 /* README.md */; };
 		B2B4CF0B247C7ED800415F46 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4CF0A247C7ED800415F46 /* Message.swift */; };
 		B2B4CF0D247C7F3F00415F46 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4CF0C247C7F3F00415F46 /* RegisterViewController.swift */; };
@@ -45,13 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0FACF03E1FEBE87FDF72B08F /* Pods_HeyChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeyChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2154148749817DF347FCF533 /* Pods-HeyChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyChatUITests.release.xcconfig"; path = "Target Support Files/Pods-HeyChatUITests/Pods-HeyChatUITests.release.xcconfig"; sourceTree = "<group>"; };
 		28F66E284A3FF8903F883BBA /* Pods_HeyChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeyChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		666EFE5FCFB3589178C156D8 /* Pods-HeyChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyChat.debug.xcconfig"; path = "Target Support Files/Pods-HeyChat/Pods-HeyChat.debug.xcconfig"; sourceTree = "<group>"; };
-		71633E07B417B0474D51685E /* Pods-HeyChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyChatTests.release.xcconfig"; path = "Target Support Files/Pods-HeyChatTests/Pods-HeyChatTests.release.xcconfig"; sourceTree = "<group>"; };
-		82CED640944303E407807F35 /* Pods-HeyChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyChatUITests.debug.xcconfig"; path = "Target Support Files/Pods-HeyChatUITests/Pods-HeyChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		A71C4DE343E5204ACB4AD73D /* Pods_HeyChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeyChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2499A4D24858D8200BDF9D0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B2B4CED2247C7CD200415F46 /* HeyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2B4CED5247C7CD200415F46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,18 +53,13 @@
 		B2B4CEE1247C7CD500415F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2B4CEE3247C7CD500415F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2B4CEE8247C7CD500415F46 /* HeyChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeyChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2B4CEEC247C7CD500415F46 /* HeyChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeyChatTests.swift; sourceTree = "<group>"; };
-		B2B4CEEE247C7CD500415F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2B4CEF3247C7CD500415F46 /* HeyChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeyChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2B4CEF7247C7CD500415F46 /* HeyChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeyChatUITests.swift; sourceTree = "<group>"; };
-		B2B4CEF9247C7CD500415F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2B4CF08247C7DB700415F46 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B2B4CF0A247C7ED800415F46 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		B2B4CF0C247C7F3F00415F46 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		B2B4CF0E247C7FC200415F46 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B2B4CF10247C7FDC00415F46 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		B2FD6A322485B37100980235 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		B508D8B87491AAC452EAA02B /* Pods-HeyChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyChatTests.debug.xcconfig"; path = "Target Support Files/Pods-HeyChatTests/Pods-HeyChatTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CAF9837E5612F3BE5051A10A /* Pods-HeyChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyChat.release.xcconfig"; path = "Target Support Files/Pods-HeyChat/Pods-HeyChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,7 +76,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64DC9C124165897E177EFBD3 /* Pods_HeyChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +83,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0595A5FC40C0115D2AA65587 /* Pods_HeyChatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,8 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				28F66E284A3FF8903F883BBA /* Pods_HeyChat.framework */,
-				0FACF03E1FEBE87FDF72B08F /* Pods_HeyChatTests.framework */,
-				A71C4DE343E5204ACB4AD73D /* Pods_HeyChatUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,8 +102,6 @@
 			children = (
 				B2B4CF08247C7DB700415F46 /* README.md */,
 				B2B4CED4247C7CD200415F46 /* HeyChat */,
-				B2B4CEEB247C7CD500415F46 /* HeyChatTests */,
-				B2B4CEF6247C7CD500415F46 /* HeyChatUITests */,
 				B2B4CED3247C7CD200415F46 /* Products */,
 				C713F9A58038DEB4837396A1 /* Pods */,
 				A19927B98879779CF6731446 /* Frameworks */,
@@ -153,24 +133,6 @@
 				B2FD6A322485B37100980235 /* GoogleService-Info.plist */,
 			);
 			path = HeyChat;
-			sourceTree = "<group>";
-		};
-		B2B4CEEB247C7CD500415F46 /* HeyChatTests */ = {
-			isa = PBXGroup;
-			children = (
-				B2B4CEEC247C7CD500415F46 /* HeyChatTests.swift */,
-				B2B4CEEE247C7CD500415F46 /* Info.plist */,
-			);
-			path = HeyChatTests;
-			sourceTree = "<group>";
-		};
-		B2B4CEF6247C7CD500415F46 /* HeyChatUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B2B4CEF7247C7CD500415F46 /* HeyChatUITests.swift */,
-				B2B4CEF9247C7CD500415F46 /* Info.plist */,
-			);
-			path = HeyChatUITests;
 			sourceTree = "<group>";
 		};
 		B2B4CF05247C7D3A00415F46 /* Views */ = {
@@ -205,10 +167,6 @@
 			children = (
 				666EFE5FCFB3589178C156D8 /* Pods-HeyChat.debug.xcconfig */,
 				CAF9837E5612F3BE5051A10A /* Pods-HeyChat.release.xcconfig */,
-				B508D8B87491AAC452EAA02B /* Pods-HeyChatTests.debug.xcconfig */,
-				71633E07B417B0474D51685E /* Pods-HeyChatTests.release.xcconfig */,
-				82CED640944303E407807F35 /* Pods-HeyChatUITests.debug.xcconfig */,
-				2154148749817DF347FCF533 /* Pods-HeyChatUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -239,7 +197,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2B4CEFF247C7CD500415F46 /* Build configuration list for PBXNativeTarget "HeyChatTests" */;
 			buildPhases = (
-				EE6963C18F9D49EBAB9C3369 /* [CP] Check Pods Manifest.lock */,
 				B2B4CEE4247C7CD500415F46 /* Sources */,
 				B2B4CEE5247C7CD500415F46 /* Frameworks */,
 				B2B4CEE6247C7CD500415F46 /* Resources */,
@@ -258,7 +215,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2B4CF02247C7CD500415F46 /* Build configuration list for PBXNativeTarget "HeyChatUITests" */;
 			buildPhases = (
-				A72B78ED7A5C1F9190BE0735 /* [CP] Check Pods Manifest.lock */,
 				B2B4CEEF247C7CD500415F46 /* Sources */,
 				B2B4CEF0247C7CD500415F46 /* Frameworks */,
 				B2B4CEF1247C7CD500415F46 /* Resources */,
@@ -368,28 +324,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A72B78ED7A5C1F9190BE0735 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HeyChatUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		D52CEAE4D3720DB9F8B1E37A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -405,28 +339,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HeyChat/Pods-HeyChat-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EE6963C18F9D49EBAB9C3369 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HeyChatTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -451,7 +363,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2B4CEED247C7CD500415F46 /* HeyChatTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,7 +370,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2B4CEF8247C7CD500415F46 /* HeyChatUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -652,10 +562,8 @@
 		};
 		B2B4CF00247C7CD500415F46 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B508D8B87491AAC452EAA02B /* Pods-HeyChatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9D873CHCNU;
 				INFOPLIST_FILE = HeyChatTests/Info.plist;
@@ -675,10 +583,8 @@
 		};
 		B2B4CF01247C7CD500415F46 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71633E07B417B0474D51685E /* Pods-HeyChatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9D873CHCNU;
 				INFOPLIST_FILE = HeyChatTests/Info.plist;
@@ -698,7 +604,6 @@
 		};
 		B2B4CF03247C7CD500415F46 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82CED640944303E407807F35 /* Pods-HeyChatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -719,7 +624,6 @@
 		};
 		B2B4CF04247C7CD500415F46 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2154148749817DF347FCF533 /* Pods-HeyChatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
