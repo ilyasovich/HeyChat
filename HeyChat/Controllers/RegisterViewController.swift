@@ -9,7 +9,24 @@
 import UIKit
 import Firebase
 
-class RegiterViewController: UIViewController {
-  
+class RegisterViewController: UIViewController {
+
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    
+    @IBAction func signupButtonPressed(_ sender: Any) {
+        
+        
+        if let email = emailTextField.text, let password = passwordTextField.text {
+            
+            Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
+                if let e = error {
+                    print(e.localizedDescription)
+                } else {
+                    self.performSegue(withIdentifier: C.registerSegue, sender: self)
+                }
+            }
+        }
+    }
 }
 

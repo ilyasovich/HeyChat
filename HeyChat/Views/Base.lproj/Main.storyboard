@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jJF-7C-br8">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -109,18 +109,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="Q7z-pN-JXE"/>
-                    <connections>
-                        <outlet property="welcomeLabel" destination="8Cy-Gg-VHt" id="aIt-Ec-HIa"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-140.57971014492756" y="150.66964285714286"/>
         </scene>
-        <!--View Controller-->
+        <!--Register View Controller-->
         <scene sceneID="o25-qY-07C">
             <objects>
-                <viewController id="iWv-oT-ZW4" sceneMemberID="viewController">
+                <viewController id="iWv-oT-ZW4" customClass="RegisterViewController" customModule="HeyChat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gFN-K4-Zog">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -138,14 +135,17 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="emailTextField" destination="6u2-AG-I2z" eventType="touchUpInside" id="uK0-Yv-Lnu"/>
+                                </connections>
                             </textField>
-                            <textField hidden="YES" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rum-dg-w05">
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rum-dg-w05">
                                 <rect key="frame" x="74" y="482" width="267" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="7HD-cz-EsV"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Signup" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rya-N7-bM6">
                                 <rect key="frame" x="141" y="296" width="132" height="58"/>
@@ -160,6 +160,9 @@
                                 <rect key="frame" x="137" y="570" width="140" height="58"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Signup"/>
+                                <connections>
+                                    <action selector="signupButtonPressed:" destination="iWv-oT-ZW4" eventType="touchUpInside" id="36S-rh-xFQ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -190,17 +193,20 @@
                     </view>
                     <navigationItem key="navigationItem" id="WdC-8T-aa9"/>
                     <connections>
+                        <outlet property="emailTextField" destination="S3o-gz-R2W" id="5Fb-MC-7jU"/>
+                        <outlet property="passwordTextField" destination="rum-dg-w05" id="g9p-3a-kNo"/>
                         <segue destination="3AQ-yT-nOi" kind="show" identifier="RegisterToChat" id="1b9-UB-IQL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CU3-gI-mtV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="6u2-AG-I2z" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="584" y="529"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="P65-4f-UOM">
             <objects>
-                <viewController id="WkA-AC-oz9" sceneMemberID="viewController">
+                <viewController id="WkA-AC-oz9" customClass="LoginViewController" customModule="HeyChat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hSf-bR-4kN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -219,13 +225,16 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField hidden="YES" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dri-QQ-367">
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dri-QQ-367">
                                 <rect key="frame" x="74" y="490" width="267" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="OKj-AV-tj9"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <connections>
+                                    <action selector="passwordTextField:" destination="9YR-KA-P0X" eventType="editingDidEnd" id="Loe-zL-Xjm"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HDx-GU-bfn">
                                 <rect key="frame" x="141" y="304" width="132" height="58"/>
@@ -240,6 +249,10 @@
                                 <rect key="frame" x="137" y="578" width="140" height="58"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="loginButtonPressed:" destination="9YR-KA-P0X" eventType="touchUpInside" id="EsD-ih-wPD"/>
+                                    <action selector="loginButtonPressed:" destination="WkA-AC-oz9" eventType="touchUpInside" id="Ze5-dt-2vt"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -270,10 +283,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="TEi-BT-1in"/>
                     <connections>
+                        <outlet property="emailTextField" destination="DJW-jd-sNO" id="Chv-mS-Pc9"/>
+                        <outlet property="passwordTextField" destination="Dri-QQ-367" id="v5N-h2-9jE"/>
                         <segue destination="3AQ-yT-nOi" kind="show" identifier="LoginToChat" id="Vwn-Kw-R4S"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lyt-eI-wqO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="9YR-KA-P0X" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="582.60869565217399" y="-152.00892857142856"/>
         </scene>
@@ -291,10 +307,10 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="B8v-vL-gh9">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="43.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="B8v-vL-gh9" id="DjB-8R-egq">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -314,7 +330,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="1b9-UB-IQL"/>
+        <segue reference="Vwn-Kw-R4S"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="TextField" width="298" height="93"/>
