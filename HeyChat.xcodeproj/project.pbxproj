@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		6B9A9DF9E4A07F6277D0566D /* Pods_HeyChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F66E284A3FF8903F883BBA /* Pods_HeyChat.framework */; };
 		B2499A4E24858D8200BDF9D0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2499A4D24858D8200BDF9D0 /* Constants.swift */; };
+		B2AE259B2494C64F0012813D /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AE25992494C64F0012813D /* MessageCell.swift */; };
+		B2AE259C2494C64F0012813D /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2AE259A2494C64F0012813D /* MessageCell.xib */; };
 		B2B4CED6247C7CD200415F46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4CED5247C7CD200415F46 /* AppDelegate.swift */; };
 		B2B4CED8247C7CD200415F46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4CED7247C7CD200415F46 /* SceneDelegate.swift */; };
 		B2B4CEDA247C7CD200415F46 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4CED9247C7CD200415F46 /* WelcomeViewController.swift */; };
@@ -44,6 +46,8 @@
 		28F66E284A3FF8903F883BBA /* Pods_HeyChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeyChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		666EFE5FCFB3589178C156D8 /* Pods-HeyChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyChat.debug.xcconfig"; path = "Target Support Files/Pods-HeyChat/Pods-HeyChat.debug.xcconfig"; sourceTree = "<group>"; };
 		B2499A4D24858D8200BDF9D0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B2AE25992494C64F0012813D /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MessageCell.swift; path = HeyChat/Views/MessageCell.swift; sourceTree = SOURCE_ROOT; };
+		B2AE259A2494C64F0012813D /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MessageCell.xib; path = HeyChat/Views/MessageCell.xib; sourceTree = SOURCE_ROOT; };
 		B2B4CED2247C7CD200415F46 /* HeyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2B4CED5247C7CD200415F46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2B4CED7247C7CD200415F46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -138,6 +142,8 @@
 		B2B4CF05247C7D3A00415F46 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B2AE25992494C64F0012813D /* MessageCell.swift */,
+				B2AE259A2494C64F0012813D /* MessageCell.xib */,
 				B2B4CEDB247C7CD200415F46 /* Main.storyboard */,
 			);
 			path = Views;
@@ -278,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2B4CF09247C7DB700415F46 /* README.md in Resources */,
+				B2AE259C2494C64F0012813D /* MessageCell.xib in Resources */,
 				B2B4CEE2247C7CD500415F46 /* LaunchScreen.storyboard in Resources */,
 				B2FD6A332485B37100980235 /* GoogleService-Info.plist in Resources */,
 				B2B4CEDF247C7CD500415F46 /* Assets.xcassets in Resources */,
@@ -356,6 +363,7 @@
 				B2B4CED6247C7CD200415F46 /* AppDelegate.swift in Sources */,
 				B2B4CED8247C7CD200415F46 /* SceneDelegate.swift in Sources */,
 				B2499A4E24858D8200BDF9D0 /* Constants.swift in Sources */,
+				B2AE259B2494C64F0012813D /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
